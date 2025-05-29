@@ -4,7 +4,7 @@ import { type Metadata } from "next";
 import { Geist } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "Lidl Receipt Generator",
+  title: "Receipt Generator for Lidl",
   description: "Generate Lidl receipts to get through those damn gates.",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };

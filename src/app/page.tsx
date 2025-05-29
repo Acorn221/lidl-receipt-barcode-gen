@@ -250,8 +250,11 @@ export default function BarcodeGenerator() {
           </div>
         </div>
       </div>
-      <div className="p-4 font-bold font-mono">
+      <div className="p-4 font-bold font-mono text-center">
         Vibe coded in Shoreham-By-Sea ❤️
+        <br />
+        <br />
+        DISCLAIMER: NOT AFFILIATED WITH LIDL UK OR ANY OTHER ENTITY. THIS IS A FUN PROJECT.
       </div>
     </main>
   );
