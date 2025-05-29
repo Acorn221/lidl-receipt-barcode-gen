@@ -38,8 +38,8 @@ export default function BarcodeGenerator() {
   }, [generateRandomDateTime]);
 
   const generateBarcode = useCallback(() => {
-    return `${storeId}${sequence}${receiptNum}${register}${date}`;
-  }, [storeId, sequence, receiptNum, register, date]);
+    return `${storeId}${sequence}${receiptNum}${register}${time}${date}`;
+  }, [storeId, sequence, receiptNum, register, time, date]);
 
   const generateHex = useCallback((barcode: string) => {
     return barcode
