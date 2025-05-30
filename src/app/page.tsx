@@ -38,8 +38,8 @@ export default function BarcodeGenerator() {
   }, [generateRandomDateTime]);
 
   const generateBarcode = useCallback(() => {
-    return `${storeId}${sequence}${receiptNum}${register}${time}${date}`;
-  }, [storeId, sequence, receiptNum, register, time, date]);
+    return `${storeId}${sequence}${receiptNum}${register}${date}`;
+  }, [storeId, sequence, receiptNum, register, date]);
 
   const generateHex = useCallback((barcode: string) => {
     return barcode
@@ -200,7 +200,7 @@ export default function BarcodeGenerator() {
             <div className="flex justify-center border border-green-400 bg-white p-4">
               <Barcode
                 value={barcode}
-                format="CODE128"
+                format="ITF"
                 width={2}
                 height={60}
                 displayValue={true}

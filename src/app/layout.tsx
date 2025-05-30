@@ -23,11 +23,11 @@ export default function RootLayout({
         {/* Sticky back button */}
         <a
           href="https://a.rno.tt"
-          className="fixed top-4 left-4 z-50 px-3 py-2 bg-green-400 hover:bg-green-300 text-black font-mono font-bold transition-colors rounded border border-green-400 text-sm"
+          className="fixed top-4 left-4 z-50 rounded border border-green-400 bg-green-400 px-3 py-2 font-mono text-sm font-bold text-black transition-colors hover:bg-green-300"
         >
           ← BACK
         </a>
-        
+
         {children}
       </body>
     </html>
