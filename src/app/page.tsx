@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
@@ -160,7 +161,7 @@ export default function BarcodeGenerator() {
                 maxLength={6}
               />
               <p className="mt-1 font-mono text-xs text-green-600">
-                \// {formatDate(date)}
+                // {formatDate(date)}
               </p>
             </div>
 
@@ -185,7 +186,7 @@ export default function BarcodeGenerator() {
                 </button>
               </div>
               <p className="mt-1 font-mono text-xs text-green-600">
-                \// {formatTime(time)}
+                // {formatTime(time)}
               </p>
             </div>
           </div>
@@ -253,13 +254,13 @@ export default function BarcodeGenerator() {
                 <div className="flex justify-between">
                   <span className="text-white">DATE:</span>
                   <span className="text-green-400">
-                    {date} \// {formatDate(date)}
+                    {date} // {formatDate(date)}
                   </span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-white">TIME:</span>
                   <span className="text-green-400">
-                    {time} \// {formatTime(time)}
+                    {time} // {formatTime(time)}
                   </span>
                 </div>
               </div>
